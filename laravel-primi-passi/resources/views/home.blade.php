@@ -1,4 +1,4 @@
-<?php
+@php
 
     $database=[
         [
@@ -20,14 +20,14 @@
         
 
         ];
-?>
+@endphp
 
 
 <h1> hello world </h1>
 
-<?php
+@php
 
     foreach($database as $utente)
     echo "<div>" . $utente['nome'] . ' ' . $utente['cognome'] . "</div>";
 
-?>
+@endphp
